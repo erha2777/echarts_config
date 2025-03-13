@@ -1,0 +1,19 @@
+
+.header {
+    padding-left: 0px !important;
+    background-color: #545c64;
+    color: #fff;
+
+    .logo {
+        // color: #fff;
+        cursor: pointer;
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        border: 1px solid #fff;
+    }
+}
+
+.main {
+    height: calc(100vh - 60px);
+}

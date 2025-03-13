@@ -1,0 +1,19 @@
+.box{
+    height: 100%;
+    &>div{
+        height: 100%;
+        background-color: #fff;
+    }
+    #echartsBox{
+        width: calc(100% - 400px - 20px);
+        margin-right: 20px;
+    }
+    .config{
+        width: 400px;
+        overflow: hidden auto;
+        padding: 20px;
+    }
+}
+.config-item{
+    margin-bottom: 10px;
+}
